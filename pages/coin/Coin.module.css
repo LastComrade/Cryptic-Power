@@ -4,7 +4,7 @@
     height: 100%;
     align-items: center;
     background: #101012;
-    flex-direction: row;
+    flex-direction: column;
 }
 
 .heading {

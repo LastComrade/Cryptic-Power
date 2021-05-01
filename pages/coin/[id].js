@@ -15,10 +15,10 @@ const Coin = ({ coinInfo }) => {
     return (
         <Layout>
             <div className={styles.coin_page}>
+                <div className={styles.heading}>
+                    <span>Cryptic</span> Power
+                </div>
                 <div className={styles.coin_container}>
-                    <h1 className={styles.heading}>
-                        <span>Cryptic</span> Power
-                    </h1>
                     <h1 className={styles.coin_name}>{coinInfo.name}</h1>
                     <p className={styles.coin_ticker}>({coinInfo.symbol})</p>
                     <img
